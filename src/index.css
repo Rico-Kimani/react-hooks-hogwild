@@ -1,21 +1,27 @@
 body {
   margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  padding: 10px;
+  font-family:cursive;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5px;
 }
 
 .App {
   margin: 0% 5% 0% 5%;
   text-align: center;
+  padding: 10px;
+  text-decoration: #38a2e0;
 }
 
 .TwirlyPig {
   transition: all 3s ease-in-out;
   display: inline;
+  transition: none;
 }
 
 .TwirlyPig:hover {
-  transform: scale(1.5);
+  transform: scale(2);
 }
 
 .navWrapper {
@@ -27,21 +33,24 @@ body {
 }
 
 .headerText {
-  color: #F5A9BC;
-  font-size: 3em;
+  color: #2a20e0;
+  font-size: 5em;
   margin: 0% 2% 0% 2%;
+  border:10px;
+  border-radius: 5px;
+  margin: 10px;
 }
 
 .largeHeader {
   font-size: 3.5em;
   font-weight: bold;
-  color: #3B0B0B;
+  color: #38a2e0;
 }
 
 .smallHeader {
   font-size: 1.75em;
   font-weight: bold;
-  color: #3B0B0B;
+  color: #2cbae1;
 }
 
 .normalText {
@@ -54,7 +63,7 @@ body {
 }
 
 .achievementText {
-  color: purple;
+  color: rgb(27, 76, 140);
 }
 
 ul {
@@ -69,7 +78,7 @@ ul {
 }
 
 .subtleText {
-  color: #D1D1D1;
+  color: #6ee1e7;
   font-size: .75em;
 }
 
@@ -86,9 +95,9 @@ ul {
   float: left;
   margin: 2%;
   padding: 1%;
-  outline: #3B0B0B dotted thick;
   transition: 0.75s;
   opacity: 1;
+  outline: #2cbae1;
 }
 
 .minBackgroundSneak {
@@ -109,7 +118,7 @@ ul {
 }
 
 .pigTile h3 {
-  color: #FBB;
+  color: rgb(57, 211, 214);
 }
 
 .minPigTile {
@@ -130,7 +139,6 @@ ul {
 
 
 .App-logo {
-  animation: App-logo-spin infinite 5s linear;
   height: 80px;
   transition: all .2s ease-in-out;
 }
